@@ -29,7 +29,7 @@ body {
 header {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 40px 60px;
+  padding: 40px 40px;
 }
 
 header img {
@@ -39,7 +39,7 @@ header img {
 section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 40px 60px;
+  padding: 40px 40px;
   display: flex;
   align-items: center;
 }
@@ -89,7 +89,7 @@ button:hover {
 .container-sm {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 40px 60px;
+  padding: 40px 40px;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -99,7 +99,6 @@ button:hover {
 .social-media {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px 40px 60px;
 
 }
 
@@ -127,3 +126,5 @@ button:hover {
 .attribution a {
   color: #EE52CA;
 }
+
+/*===MEDIA QUERIES===*/
