@@ -45,11 +45,14 @@ section {
 }
 
 .content-img img {
-  width: 630px;
+  width: 100%;
+  padding: 20px 20px; 
 }
 
 .content-info {
-  padding: 40px 40px 60px;
+  padding: 40px 40px;
+  flex: 1 630px;
+
 }
 
 h1 {
@@ -89,7 +92,7 @@ button:hover {
 .container-sm {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 40px;
+  padding: 0px 40px;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -114,9 +117,6 @@ button:hover {
   display: flex;
 }
 
-
-
-
 .attribution {
   font-size: 12px;
   text-align: center;
@@ -128,3 +128,34 @@ button:hover {
 }
 
 /*===MEDIA QUERIES===*/
+@media (max-width: 990px) {
+  header {
+    text-align: center;
+  }
+  
+  .content-img img {
+    width: 100%;
+    padding: 0px 30px; 
+  }
+
+  .content-info {
+    padding: 0;
+    flex: 0;
+    padding: 50px 30px;
+  }
+
+  section {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .container-sm {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+}
