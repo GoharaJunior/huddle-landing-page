@@ -1,0 +1,108 @@
+/*===RESET GLOBAL===*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--violet);
+  background-image: url(/images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  color: #fff;
+}
+
+:root {
+  --violet: #674baf;
+}
+
+/*===STYLE PAGE===*/
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 40px 60px;
+}
+
+header img {
+  width: 205px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 40px 60px;
+  display: flex;
+  align-items: center;
+}
+
+.content-img img {
+  width: 600px;
+}
+
+.content-info {
+  padding: 40px 40px 60px;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.5;
+
+}
+
+button {
+  background-color: #fff;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 100px;
+  color: var(--violet);
+  margin-top: 30PX;
+  font-size: 18px;
+  transition: 200ms;
+}
+
+button:hover {
+  /* transition: 800ms; */
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
